@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD18F0961E1AFE09004BBBC4 /* earth_lights.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD18F0931E1AF9EB004BBBC4 /* earth_lights.bmp */; };
+		BD18F0971E1AFE09004BBBC4 /* night_world.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD18F0941E1AF9EB004BBBC4 /* night_world.bmp */; };
+		BD18F0981E1AFE09004BBBC4 /* worldtex.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD18F0951E1AF9EB004BBBC4 /* worldtex.bmp */; };
+		BD88DD4A1DB31BFE002FB1A4 /* project3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD88DD491DB31BFE002FB1A4 /* project3.cpp */; };
+		BD88DD4D1DB31F1E002FB1A4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DD4C1DB31F1E002FB1A4 /* GLUT.framework */; };
+		BD88DD4F1DB31F23002FB1A4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DD4E1DB31F23002FB1A4 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD88DD381DB316F6002FB1A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				BD18F0961E1AFE09004BBBC4 /* earth_lights.bmp in CopyFiles */,
+				BD18F0971E1AFE09004BBBC4 /* night_world.bmp in CopyFiles */,
+				BD18F0981E1AFE09004BBBC4 /* worldtex.bmp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD18F0931E1AF9EB004BBBC4 /* earth_lights.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earth_lights.bmp; sourceTree = "<group>"; };
+		BD18F0941E1AF9EB004BBBC4 /* night_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = night_world.bmp; sourceTree = "<group>"; };
+		BD18F0951E1AF9EB004BBBC4 /* worldtex.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = worldtex.bmp; sourceTree = "<group>"; };
+		BD88DD3A1DB316F6002FB1A4 /* CS450 Project 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS450 Project 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD88DD491DB31BFE002FB1A4 /* project3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = project3.cpp; sourceTree = "<group>"; };
+		BD88DD4C1DB31F1E002FB1A4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		BD88DD4E1DB31F23002FB1A4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD88DD371DB316F6002FB1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD88DD4F1DB31F23002FB1A4 /* OpenGL.framework in Frameworks */,
+				BD88DD4D1DB31F1E002FB1A4 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD18F0991E1B0180004BBBC4 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				BD18F0931E1AF9EB004BBBC4 /* earth_lights.bmp */,
+				BD18F0941E1AF9EB004BBBC4 /* night_world.bmp */,
+				BD18F0951E1AF9EB004BBBC4 /* worldtex.bmp */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		BD88DD311DB316F6002FB1A4 = {
+			isa = PBXGroup;
+			children = (
+				BD88DD3C1DB316F7002FB1A4 /* CS450 Project 3 */,
+				BD88DD3B1DB316F6002FB1A4 /* Products */,
+				BD88DD4B1DB31F1D002FB1A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD88DD3B1DB316F6002FB1A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DD3A1DB316F6002FB1A4 /* CS450 Project 3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD88DD3C1DB316F7002FB1A4 /* CS450 Project 3 */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DD491DB31BFE002FB1A4 /* project3.cpp */,
+				BD18F0991E1B0180004BBBC4 /* Textures */,
+			);
+			path = "CS450 Project 3";
+			sourceTree = "<group>";
+		};
+		BD88DD4B1DB31F1D002FB1A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DD4E1DB31F23002FB1A4 /* OpenGL.framework */,
+				BD88DD4C1DB31F1E002FB1A4 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD88DD391DB316F6002FB1A4 /* CS450 Project 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD88DD411DB316F8002FB1A4 /* Build configuration list for PBXNativeTarget "CS450 Project 3" */;
+			buildPhases = (
+				BD88DD361DB316F6002FB1A4 /* Sources */,
+				BD88DD371DB316F6002FB1A4 /* Frameworks */,
+				BD88DD381DB316F6002FB1A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CS450 Project 3";
+			productName = "CS450 Project 3";
+			productReference = BD88DD3A1DB316F6002FB1A4 /* CS450 Project 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD88DD321DB316F6002FB1A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kyler Stole";
+				TargetAttributes = {
+					BD88DD391DB316F6002FB1A4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD88DD351DB316F6002FB1A4 /* Build configuration list for PBXProject "CS450 Project 3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD88DD311DB316F6002FB1A4;
+			productRefGroup = BD88DD3B1DB316F6002FB1A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD88DD391DB316F6002FB1A4 /* CS450 Project 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD88DD361DB316F6002FB1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD88DD4A1DB31BFE002FB1A4 /* project3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD88DD3F1DB316F8002FB1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD88DD401DB316F8002FB1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD88DD421DB316F8002FB1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD88DD431DB316F8002FB1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD88DD351DB316F6002FB1A4 /* Build configuration list for PBXProject "CS450 Project 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD88DD3F1DB316F8002FB1A4 /* Debug */,
+				BD88DD401DB316F8002FB1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD88DD411DB316F8002FB1A4 /* Build configuration list for PBXNativeTarget "CS450 Project 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD88DD421DB316F8002FB1A4 /* Debug */,
+				BD88DD431DB316F8002FB1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD88DD321DB316F6002FB1A4 /* Project object */;
+}
